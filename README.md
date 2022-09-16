@@ -20,8 +20,9 @@ mitmdump -s interceptor.py
 mitmdump -q -p 23456 -s interceptor.py
 ```
 5. 在手机上设置代理服务器，打开游戏，不出意外，就可以把每一关都改成第一关了
-ip:内网ip
-port:23456
+> 代理服务器ip: 内网ip
+> 
+> 代理服务器端口:23456
 # Tips
 发现有的手机需要把ca证书安装到系统证书里面才可以用，具体步骤大家百度吧，可以利用root也可以利用magisk模块
 # 效果

@@ -1,5 +1,6 @@
 # yanglegeyang
 利用代理服务器让羊了个羊每一关都是第一关，亲测局域网范围全都进羊圈了
+[2022-09-19] 已适配最新版本的羊了个羊 亲测可以进羊圈 但是通关次数不增加
 # 原理
 利用mitmproxy创建代理服务器，自定义拦截脚本(interceptor.py)修改关卡，让每一关都变成第一关
 # 教程
@@ -27,3 +28,5 @@ mitmdump -q -p 23456 -s interceptor.py
 发现有的手机需要把ca证书安装到系统证书里面才可以用，具体步骤大家百度吧，可以利用root也可以利用magisk模块
 # 效果
 ![db7732b11e6e0709baf2588b2e871a3](https://user-images.githubusercontent.com/41848811/190659574-7b1c4af8-f68e-4d2f-93d6-cff693871005.png)
+[2022-09-19] 新版测试
+![544d738b63b682316e7b608c5060c3d](https://user-images.githubusercontent.com/41848811/191052544-99abb1b7-83a3-4fb4-8e1a-489650f25e7b.png)

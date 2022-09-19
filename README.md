@@ -16,17 +16,17 @@ pip3 install mitmproxy
 mitmdump -s interceptor.py
 ```
 
-3. 复制ca证书到手机，自行安装，不多讲
+3.复制ca证书到手机，自行安装，不多讲
 ```shell
 证书在：~/.mitmproxy/mitmproxy-ca-cert.pem
 ```
 
-4. 启动mitmproxy
+4.启动mitmproxy
 ```shell
 mitmdump -q -p 23456 -s interceptor.py
 ```
 
-5. 在手机上设置代理服务器，打开游戏，不出意外，就可以把每一关都改成第一关了
+5.在手机上设置代理服务器，打开游戏，不出意外，就可以把每一关都改成第一关了
 > 代理服务器ip: 内网ip
 > 
 > 代理服务器端口:23456
